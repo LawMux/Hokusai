@@ -21,6 +21,7 @@ From here select “Load Temporary Add On” and then either 1) select the pre-z
 <br/>
 <kbd><img src="https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-6.png" width="600" ></kbd><br/>
 <br/>
+
 # Quick Demo
 Following activation, when you navigate to one of the PATFT webpages, you’ll see a control appear in the top-right corner as shown below.
 
@@ -54,6 +55,7 @@ Note that only references you’ve navigated to will be marked as “viewed.” 
 <kbd><img src="https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-4.png" width="600" ></kbd><br/>
 <br/>
 Here, you can create new search records, remove records, etc.  You can also export/import searches and sets of references via the various export buttons.
+
 # What are passive / active modes?
 In passive mode, Hokusai automatically checks references when you land on a page.
 In active / “On Request” mode (shown below), you have to click “Collect” for the collection to be performed.
@@ -73,17 +75,21 @@ Considering this, some developers may be motivated to automatically crawl the PA
 * It imposes an undesirable load on the PATFT servers.  Indeed, the servers sometimes bog down and I suspect it’s because some jerk somewhere is performing such a crawl. 
 * A good prior art search requires an AI-complete (i.e., as good as a human) level of semantic review.  Automation is not always your friend in this regard.  So human-in-the-loop solutions are typically more preferable.
 Hokusai strikes a happy middle ground.  A human semantic engine (you) is still driving the search and the extension imposes no additional load upon the PATFT server. 
- # How do I request features / suggest changes?
+
+# How do I request features / suggest changes?
 Email [james@jstechlaw.com](mailto:james@jstechlaw.com)
+
 # Already planned / half-implemented features
 * Force diagram representation of cross-reference relations
 * Family representations
 * Extend functionality to include ESPACE, WIPO, and other patent search sites
+
 # License
 The current version (as of 07/13/2021) is available under the AGPL with the additional following language:
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <br/><br/>
 Generally, do not incorporate Hokusai into a commercial product that you plan to distribute under any license other than the AGPL.  Frankly, if you’re so eager to produce a commercial product, appreciate that it’s not that challenging simply to rewrite the functionality from scratch.  However, recognize that the market for this sort of thing isn’t that huge ($15 a license . . . saturation by 150 law firms / search firms . . . so, ~$2K?  There’s a reason this is on GitHub :)) 
+
 # DISCLAIMER / NO WARRANTY OR GUARANTEE OF COMPLETENESS OR ACCURACY
 Prior Art searching is as much an art as a science.  Similarly, the PATFT website is buggy.  Accordingly, DO NOT RELY DISPOSITIVELY UPON HOKUSAI TO CAPTURE ALL THE REFERENCES YOU ENCOUNTER.  This is merely an assistive tool, not a guarantee of comprehensive collection.  Like any tool, it is imperfect.  You have been warned.
 
