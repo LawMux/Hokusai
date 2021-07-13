@@ -15,7 +15,7 @@ By either method, direct your FireFox browser to
 [about:debugging#/runtime/this-firefox]( about:debugging#/runtime/this-firefox)
 From here select “Load Temporary Add On” and then either 1) select the pre-zipped Hokusai.zip or 2) click on the manifest.json in the top-level directory of the download.
 
-<img src="https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-6.png" width="400" style="margin:0 auto;border:1px solid black;">
+<img src="https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-6.png" width="600" style="margin:0 auto; display:block; border:1px solid black;">
 # Quick Demo
 Following activation, when you navigate to one of the PATFT webpages, you’ll see a control appear in the top-right corner as shown below.
 ![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-0.png "PATFT Landing Page Post Activation")
