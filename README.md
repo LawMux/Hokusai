@@ -46,7 +46,7 @@ In active / “On Request” mode (shown below), you have to click “Collect”
 # Motivation
 The “ideal” method for automating reference collection, as it facilitates quick and comprehensive review, would be to download  the USPTO bulk dataset and harvest references locally.  I did this.  However,  
 * The dataset is large and unwieldly, of varying documentation formats, and prone to SQL insertion bugs 
-* Successfully moving the database to a SQL server is something of a Pyrrhic victory, as updates and corrections will still need to be made manually 
+* Successfully moving the database to a SQL server is something of a Pyrrhic victory, as updates and corrections will still need to be made manually. 
 Considering this, some developers may be motivated to automatically crawl the PATFT website for references.  I would advise against this for several reasons
 * I’m not sure this is congruent with PATFT’s robot.txt
 * It imposes an undesirable load on the PATFT servers.  Indeed, the servers sometimes bog down and I suspect it’s because some jerk somewhere is performing such a crawl. 
