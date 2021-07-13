@@ -26,14 +26,14 @@ Here, Hokusai is telling you that it found 10 new US items and 3 new Foreign ite
 ![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-2.png "Quiescent" | width=300)
 In the top left is a ranking tool for ranking the reference (you can decide what 0-3 meant to you – right now, all references start at 0).  Similarly, in the bottom right is a notepad (“this is a terrible/great reference!”).  Note that Hokusai performs cross-tab reconciliation for both of these menus.  That is, if you open a new tab for this page and make a note, that note will automatically appear in the previous tab.  Ditto the rank.
 If you select “Menu” in the top right, you’ll be presented with the tab selection menu – initially, the Corpus Table is selected, indicating the list of US references for the current search.
-![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-3.png "Corpus Tab" | width=300)
+![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-3.png "Corpus Tab" )
 Note that only references you’ve navigated to will be marked as “viewed.”  By selecting the drop-down in the top left, you can navigate away from the Corpus Table to the Searches Tab.
-![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-4.png "Searches Tab" | width=300)
+![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-4.png "Searches Tab")
 Here, you can create new search records, remove records, etc.  You can also export/import searches and sets of references via the various export buttons.
 # What are passive / active modes?
 In passive mode, Hokusai automatically checks references when you land on a page.
 In active / “On Request” mode (shown below), you have to click “Collect” for the collection to be performed.
-![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-5.png "Active Mode" | width=300)
+![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-5.png "Active Mode" )
 
 # Motivation
 The “ideal” method for automating reference collection, as it facilitates quick and comprehensive review, would be to download  the USPTO bulk dataset and harvest references locally.  I did this.  However,  
