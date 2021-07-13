@@ -7,7 +7,8 @@ Whenever you visit one of:
 * A page of patent search results
 * A specific patent’s page
 * A page of publication search results
-* A specific publication’s page<br/><br/>
+* A specific publication’s page 
+<br/>
 Hokusai will collect all the US patents / publications, Foreign Patents / Publications, and Non-Patent references appearing on the page and integrate them into the search record.   This includes reconciliation: i.e., if a Patent and Publication refer to the same application, Hokusai will merge their appearances into a single entry in the search record.
 # How do I install Hokusai?
 There are generally two methods – either load the prebuilt Hokusai Zip into your browser, or load the unzipped folder by selecting the manifest file.  I’ll describe these methods with respect to FireFox – you can Google to find the equivalent in chrome.
