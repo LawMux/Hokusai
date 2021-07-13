@@ -71,9 +71,9 @@ The “ideal” method for automating reference collection, as it facilitates qu
 * The dataset is large and unwieldly, of varying documentation formats, and prone to SQL insertion bugs 
 * Successfully moving the database to a SQL server is something of a Pyrrhic victory, as updates and corrections will still need to be made manually. 
 Considering this, some developers may be motivated to automatically crawl the PATFT website for references.  I would advise against this for several reasons
-      * I’m not sure this is congruent with PATFT’s robot.txt
-      * It imposes an undesirable load on the PATFT servers.  Indeed, the servers sometimes bog down and I suspect it’s because some jerk somewhere is performing such a crawl. 
-      * A good prior art search requires an AI-complete (i.e., as good as a human) level of semantic review.  Automation is not always your friend in this regard.  So human-in-the-loop solutions are typically more preferable.
+  * I’m not sure this is congruent with PATFT’s robot.txt
+  * It imposes an undesirable load on the PATFT servers.  Indeed, the servers sometimes bog down and I suspect it’s because some jerk somewhere is performing such a crawl. 
+  * A good prior art search requires an AI-complete (i.e., as good as a human) level of semantic review.  Automation is not always your friend in this regard.  So human-in-the-loop solutions are typically more preferable.
 Hokusai strikes a happy middle ground.  A human semantic engine (you) is still driving the search and the extension imposes no additional load upon the PATFT server. 
 
 # How do I request features / suggest changes?
