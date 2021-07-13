@@ -14,7 +14,7 @@ There are generally two methods – either load the prebuilt Hokusai Zip into yo
 By either method, direct your FireFox browser to 
 [about:debugging#/runtime/this-firefox]( about:debugging#/runtime/this-firefox)
 From here select “Load Temporary Add On” and then either 1) select the pre-zipped Hokusai.zip or 2) click on the manifest.json in the top-level directory of the download.
-![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-6.png "Load Extension")
+<img src="https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-6.png" alt-txt="Load Extension" style="margin:0 auto;border:1px solid black;width:400px")
 # Quick Demo
 Following activation, when you navigate to one of the PATFT webpages, you’ll see a control appear in the top-right corner as shown below.
 ![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-0.png "PATFT Landing Page Post Activation")
@@ -45,7 +45,7 @@ Considering this, some developers may be motivated to automatically crawl the PA
 * A good prior art search requires an AI-complete (i.e., as good as a human) level of semantic review.  Automation is not always your friend in this regard.  So human-in-the-loop solutions are typically more preferable.
 Hokusai strikes a happy middle ground.  A human semantic engine (you) is still driving the search and the extension imposes no additional load upon the PATFT server. 
  # How do I request features / suggest changes?
-Email [james@jstechlaw.com](https://www.google.com)
+Email [james@jstechlaw.com](mailto:james@jstechlaw.com)
 # Already planned / half-implemented features
 * Force diagram representation of cross-reference relations
 * Family representations
