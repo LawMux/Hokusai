@@ -1,13 +1,13 @@
 # Hokusai
 A Browser Extension for Passively Recording Prior Art Patent Searches
 # What is Hokusai?
-Hokusai is a FireFox / Chrome browser extension which passively records prior art references encountered upon the [PATFT](https://www.google.com) website as you browse.  Tracking references manually while browsing the website can be tedious and prone to error.  Hokusai, in contrast, passively generates the record for you.
+Hokusai is a FireFox / Chrome browser extension which passively records prior art references encountered upon the [PATFT](https://patft.uspto.gov/) website as you browse.  Tracking references manually while browsing the website can be tedious and prone to error.  Hokusai, in contrast, passively generates the record for you.
 # How does Hokusai work?
 Whenever you visit one of:
-⋅⋅* A page of patent search results, e.g.
-⋅⋅* A specific patent’s page, e.g.
-⋅⋅* A page of publication search results, e.g.
-⋅⋅* A specific publication’s page, e.g.
+* A page of patent search results, e.g. [Example](https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=0&p=1&f=S&l=50&Query=AN%2F%28Intel%29&d=PTXT)
+* A specific patent’s page, e.g.[Example](https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=2&p=1&f=G&l=50&d=PTXT&S1=Intel.ASNM.&OS=AN/(Intel)&RS=AN/Intel)
+* A page of publication search results, e.g.[Example](https://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=0&p=1&f=S&l=50&Query=AN%2F%28Intel%29&d=PG01)
+* A specific publication’s page, e.g.[Example](https://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=1&p=1&f=G&l=50&d=PG01&S1=Intel.AS.&OS=AN/(Intel)&RS=AN/Intel)
 Hokusai will collect all the US patents / publications, Foreign Patents / Publications, and Non-Patent references appearing on the page and integrate them into the search record.   This includes reconciliation: i.e., if a Patent and Publication refer to the same application, Hokusai will merge their appearances into a single entry in the search record.
 # How do I install Hokusai?
 There are generally two methods – either load the prebuilt Hokusai Zip into your browser, or load the unzipped folder by selecting the manifest file.  I’ll describe these methods with respect to FireFox – you can Google to find the equivalent in chrome.
