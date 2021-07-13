@@ -1,0 +1,37 @@
+{
+    "description": "",
+    "manifest_version": 2,
+    "name": "HOKUSAI",
+    "version": "1.0",
+    "homepage_url": "https://github.com/LawMux/Hokusai",
+    "applications": {
+        "gecko": {
+            "id": "james@jstechlaw.com",
+            "strict_min_version": "45.0"
+        }
+    },
+    "permissions": [
+        "<all_urls>",
+        "file:///*",
+        "activeTab",
+        "storage",
+        "tabs",
+        "webRequest",
+        "webNavigation",
+        "unlimitedStorage"
+    ],
+    "browser_action": {
+        "default_icon": "icons/beasts-32.png",
+        "default_title": "HOKUSAI"
+    },
+    "content_scripts": [
+	{
+	    "matches": ["*://*.patft.uspto.gov/*", "*://*.appft.uspto.gov/*"],
+	    "js": ["jquery.min.js","hokusai.js", "lib_srch.js"],
+      "css": ["hokusai.css"]
+	}
+    ],
+    "background": {
+        "scripts": ["bg.js"]
+    }
+}
