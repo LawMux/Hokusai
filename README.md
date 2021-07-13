@@ -33,6 +33,8 @@ If you now navigate to a page upon which collection occurs, three additional men
 <br/>
 <br/>
 <kbd><img src="https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-1.png" width="600" ></kbd><br/>
+<br/>
+
 Here, Hokusai is telling you that it found 10 new US items and 3 new Foreign items and 0 non-patent items that it hadn’t seen before (if you refresh the page, these will all be 0 since the references are in the database now).  The notice will eventually move to the bottom left corner.
 
 <br/>
