@@ -16,25 +16,35 @@ By either method, direct your FireFox browser to
 [about:debugging#/runtime/this-firefox]( about:debugging#/runtime/this-firefox)
 From here select “Load Temporary Add On” and then either 1) select the pre-zipped Hokusai.zip or 2) click on the manifest.json in the top-level directory of the download.
 
+<br/>
+<br/>
 <kbd><img src="https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-6.png" width="600" ></kbd><br/>
 <br/>
 # Quick Demo
 Following activation, when you navigate to one of the PATFT webpages, you’ll see a control appear in the top-right corner as shown below.
 
+<br/>
+<br/>
 <kbd><img src="https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-0.png" width="600" ></kbd><br/>
 <br/>
 The control indicates that Hokusai is recording the “default” search and is in passive mode.  During passive mode, references are acquired automatically, as you browse.  Under “active” mode you have to click “Collect” on each page that you want to acquire references (useful, e.g., if you want to limit the references you’ll have to review – as you’ll see, references accumulate quickly).
 If you now navigate to a page upon which collection occurs, three additional menus will appear.  For example, if you go to the patent page for US PAT NO. 6,923,014, the center of the screen will show a count update:
 
+<br/>
+<br/>
 <kbd><img src="https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-1.png" width="600" ></kbd><br/>
 Here, Hokusai is telling you that it found 10 new US items and 3 new Foreign items and 0 non-patent items that it hadn’t seen before (if you refresh the page, these will all be 0 since the references are in the database now).  The notice will eventually move to the bottom left corner.
 
+<br/>
+<br/>
 <kbd><img src="https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-2.png" width="600" ></kbd>
 <br/>
 <br/>
 In the top left is a ranking tool for ranking the reference (you can decide what 0-3 meant to you – right now, all references start at 0).  Similarly, in the bottom right is a notepad (“this is a terrible/great reference!”).  Note that Hokusai performs cross-tab reconciliation for both of these menus.  That is, if you open a new tab for this page and make a note, that note will automatically appear in the previous tab.  Ditto the rank.
 If you select “Menu” in the top right, you’ll be presented with the tab selection menu – initially, the Corpus Table is selected, indicating the list of US references for the current search.
 
+<br/>
+<br/>
 <kbd><img src="https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-3.png" width="600" ></kbd><br/>
 Note that only references you’ve navigated to will be marked as “viewed.”  By selecting the drop-down in the top left, you can navigate away from the Corpus Table to the Searches Tab.
 
@@ -46,6 +56,8 @@ In passive mode, Hokusai automatically checks references when you land on a page
 In active / “On Request” mode (shown below), you have to click “Collect” for the collection to be performed.
 
 
+<br/>
+<br/>
 <kbd><img src="https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-5.png" width="600" ></kbd><br/>
 <br/>
 
