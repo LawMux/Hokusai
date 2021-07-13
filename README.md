@@ -23,33 +23,33 @@ The control indicates that Hokusai is recording the “default” search and is 
 If you now navigate to a page upon which collection occurs, three additional menus will appear.  For example, if you go to the patent page for US PAT NO. 6,923,014, the center of the screen will show a count update:
 ![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-1.png "First Encounter")
 Here, Hokusai is telling you that it found 10 new US items and 3 new Foreign items and 0 non-patent items that it hadn’t seen before (if you refresh the page, these will all be 0 since the references are in the database now).  The notice will eventually move to the bottom left corner.
-![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-2.png "Quiescent")
+![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-2.png "Quiescent" | width=300)
 In the top left is a ranking tool for ranking the reference (you can decide what 0-3 meant to you – right now, all references start at 0).  Similarly, in the bottom right is a notepad (“this is a terrible/great reference!”).  Note that Hokusai performs cross-tab reconciliation for both of these menus.  That is, if you open a new tab for this page and make a note, that note will automatically appear in the previous tab.  Ditto the rank.
 If you select “Menu” in the top right, you’ll be presented with the tab selection menu – initially, the Corpus Table is selected, indicating the list of US references for the current search.
-![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-3.png "Corpus Tab")
+![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-3.png "Corpus Tab" | width=300)
 Note that only references you’ve navigated to will be marked as “viewed.”  By selecting the drop-down in the top left, you can navigate away from the Corpus Table to the Searches Tab.
-![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-4.png "Searches Tab")
+![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-4.png "Searches Tab" | width=300)
 Here, you can create new search records, remove records, etc.  You can also export/import searches and sets of references via the various export buttons.
 # What are passive / active modes?
 In passive mode, Hokusai automatically checks references when you land on a page.
 In active / “On Request” mode (shown below), you have to click “Collect” for the collection to be performed.
-![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-5.png "Active Mode")
+![alt text]( https://raw.githubusercontent.com/LawMux/Hokusai/main/tutorial_imgs/a-5.png "Active Mode" | width=300)
 
 # Motivation
 The “ideal” method for automating reference collection, as it facilitates quick and comprehensive review, would be to download  the USPTO bulk dataset and harvest references locally.  I did this.  However,  
-⋅⋅* The dataset is large and unwieldly, of varying documentation formats, and prone to SQL insertion bugs 
-⋅⋅* Successfully moving the database to a SQL server is something of a Pyrrhic victory, as updates and corrections will still need to be made manually 
+* The dataset is large and unwieldly, of varying documentation formats, and prone to SQL insertion bugs 
+* Successfully moving the database to a SQL server is something of a Pyrrhic victory, as updates and corrections will still need to be made manually 
 Considering this, some developers may be motivated to automatically crawl the PATFT website for references.  I would advise against this for several reasons
-⋅⋅* I’m not sure this is congruent with PATFT’s robot.txt
-⋅⋅* It imposes an undesirable load on the PATFT servers.  Indeed, the servers sometimes bog down and I suspect it’s because some jerk somewhere is performing such a crawl. 
-⋅⋅* A good prior art search requires an AI-complete (i.e., as good as a human) level of semantic review.  Automation is not always your friend in this regard.  So human-in-the-loop solutions are typically more preferable.
+* I’m not sure this is congruent with PATFT’s robot.txt
+* It imposes an undesirable load on the PATFT servers.  Indeed, the servers sometimes bog down and I suspect it’s because some jerk somewhere is performing such a crawl. 
+* A good prior art search requires an AI-complete (i.e., as good as a human) level of semantic review.  Automation is not always your friend in this regard.  So human-in-the-loop solutions are typically more preferable.
 Hokusai strikes a happy middle ground.  A human semantic engine (you) is still driving the search and the extension imposes no additional load upon the PATFT server. 
  # How do I request features / suggest changes?
 Email [james@jstechlaw.com](https://www.google.com)
 # Already planned / half-implemented features
-⋅⋅* Force diagram representation of cross-reference relations
-⋅⋅* Family representations
-⋅⋅* Extend functionality to include ESPACE, WIPO, and other patent search sites
+* Force diagram representation of cross-reference relations
+* Family representations
+* Extend functionality to include ESPACE, WIPO, and other patent search sites
 # License
 The current version (as of 07/13/2021) is available under the AGPL with the additional following language:
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
