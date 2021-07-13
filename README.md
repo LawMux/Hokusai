@@ -61,6 +61,7 @@ Email [james@jstechlaw.com](mailto:james@jstechlaw.com)
 # License
 The current version (as of 07/13/2021) is available under the AGPL with the additional following language:
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+<br/>
 Generally, do not incorporate Hokusai into a commercial product that you plan to distribute under any license other than the AGPL.  Frankly, if you’re so eager to produce a commercial product, appreciate that it’s not that challenging simply to rewrite the functionality from scratch.  However, recognize that the market for this sort of thing isn’t that huge ($15 a license . . . saturation by 150 law firms / search firms . . . so, ~$2K?  There’s a reason this is on GitHub :)) 
 # DISCLAIMER / NO WARRANTY OR GUARANTEE OF COMPLETENESS OR ACCURACY
 Prior Art searching is as much an art as a science.  Similarly, the PATFT website is buggy.  Accordingly, DO NOT RELY DISPOSITIVELY UPON HOKUSAI TO CAPTURE ALL THE REFERENCES YOU ENCOUNTER.  This is merely an assistive tool, not a guarantee of comprehensive collection.  Like any tool, it is imperfect.  You have been warned.
