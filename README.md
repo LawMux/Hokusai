@@ -1,4 +1,6 @@
 # Hokusai
+(11/01/2023 - N.b., whether by coincidence / inspiration / divine guidance / etc., the USPTO's new Patent Center and PPAS now implement most of the below functionality, though not quite in the manner I would have done so)
+
 A Browser Extension for Passively Recording Prior Art Patent Searches
 # What is Hokusai?
 Hokusai is a FireFox / Chrome browser extension which passively records prior art references encountered upon the [PATFT](https://patft.uspto.gov/) website as you browse.  Tracking references manually while browsing the website can be tedious and prone to error.  Hokusai, in contrast, passively generates the record for you.
